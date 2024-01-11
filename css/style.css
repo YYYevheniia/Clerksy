@@ -27,63 +27,55 @@
 }
 header {
     background-color: #163A24;
-    max-width: 1248px;
     margin: auto;
 }
-#header-div{
+.header-menu{
     display: flex;
     justify-content: space-between;
     max-width: 1180px;
     margin: auto;
 }
-#logo{
+.logo{
     padding-top: 20px;
     padding-bottom: 20px;
 }
 header nav ul{
-    padding-top: 41px;
-    padding-bottom: 35px;
     list-style: none;
-    text-decoration: none;
-    margin-left: 24px;
     display: flex;
+    align-items: center;
 }
 header nav ul li:first-of-type{
-    color: #FBFAF7;
-    text-align: right;
-    font-family: Noto Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    padding-top: 41px;
+    padding-bottom: 35px;
+    margin-right: 24px;
 }
 header nav ul li:nth-child(2){
-    color: #FBFAF7;
-    text-align: right;
-    font-family: Noto Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    padding-top: 41px;
+    padding-bottom: 35px;
+    margin-right: 24px;
 }
 header nav ul li:last-of-type{
     border-radius: 160px;
     background: #198C36;
-    max-width: 141px;
-    max-height: 52px;
+    padding-top: 21px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+header div nav ul li a{
     color: #FBFAF7;
-    text-align: center;
+    text-align: right;
     font-family: Noto Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 21px;
-    padding-bottom: 25px;
+    text-decoration: none;
 }
 .div-h1{
     background-color: #163A24;
-    max-width: 1248px;
     margin: auto;
 }
 .div-h1-section{
@@ -106,7 +98,7 @@ h1{
     line-height: 65.25px; /* 135.938% */
     padding-bottom: 18px;
 }
-#h1-p1 {
+.h1-p1 {
     color: #FBFAF7;
     font-family: Noto Sans;
     font-size: 18px;
