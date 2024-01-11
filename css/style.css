@@ -46,6 +46,7 @@ header nav ul{
     list-style: none;
     text-decoration: none;
     margin-left: 24px;
+    display: flex;
 }
 header nav ul li:first-of-type{
     color: #FBFAF7;
