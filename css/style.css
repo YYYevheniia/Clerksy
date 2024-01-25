@@ -19,6 +19,7 @@
     url('../fonts/recoleta-regulardemo-webfont.svg#recoletaregular_demo') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
     *{
     padding: 0;
@@ -206,9 +207,6 @@ line-height: 27px; /* 150% */
     font-weight: 400;
     line-height: 27px; /* 150% */
 }
-.hr-img{
-    margin-bottom: 28px;
-}
 .Employees {
     padding-top: 114px;
     padding-bottom: 135px;
@@ -299,7 +297,7 @@ line-height: 27px; /* 150% */
 }
 .article-company{
     border-radius: 15px;
-    background-color: #FBFAF7;
+    background-color: #F2EFE6;
     max-width: 353px;
     width: 100%;
     padding: 50px 40px 66px 40px;
